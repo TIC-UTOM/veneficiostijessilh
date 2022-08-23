@@ -9,6 +9,7 @@ import { RamasComponent } from './ramas/ramas.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { MenuComponent } from './menu/menu.component';
 import { FuturoticComponent } from './futurotic/futurotic.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FuturoticComponent } from './futurotic/futurotic.component';
     RamasComponent,
     InicioComponent,
     MenuComponent,
-    FuturoticComponent
+    FuturoticComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
